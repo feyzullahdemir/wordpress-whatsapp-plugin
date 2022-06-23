@@ -2,19 +2,17 @@
 <?php
 /*
 Plugin Name: Button Chat
-Plugin URI:
+Plugin URI:https://wordpress.org/plugins/button-chat-wp-new
 Description: chat update button WhatsApp
 Version:    1.0.0
 Author:      kaan
-Author URI:
+Author URI: https://fududigital.com/
+License: GNU
 */
 
 include_once('include/settings.php');
 require_once('include/functions.php');
 
-// ================================================
-// Creating Database when the plugin is activated
-// ================================================
 
 
 function cndev_chat_btn_create_database() {
